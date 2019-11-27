@@ -25,15 +25,15 @@ android {
     flavorDimensions "version"
     productFlavors {
         //将 AndroidManifest.xml 文件中的 ${UMENG_CHANNEL} 替换为 default
-        flavors_default {
+        flavors_defaulta {
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "defalut"]
         }
 
-        flavors_dev {
+        flavors_deva {
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "dev"]
         }
 
-        flavors_release {
+        flavors_releasea {
             manifestPlaceholders = [UMENG_CHANNEL_VALUE: "release"]
         }
     }
